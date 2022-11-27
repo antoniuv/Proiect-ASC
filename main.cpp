@@ -115,7 +115,7 @@ while(true){
            //for(i=0;i<5;i++)cout<<a1[i]<<" ";
            //cout<<endl;
            for(i=0;i<243;i++)
-        if(aclona[i][0]!=5)if(a[i][0]==a1[0]&&a[i][1]==a1[1]&&a[i][2]==a1[2]&&a[i][3]==a1[3]&&a[i][4]==a1[4])aparitii_patternuri[i]++;
+        if(a[i][0]!=5)if(a[i][0]==a1[0]&&a[i][1]==a1[1]&&a[i][2]==a1[2]&&a[i][3]==a1[3]&&a[i][4]==a1[4])aparitii_patternuri[i]++;
            for(int i=0;i<=4;i++)a1[i]=0;
        }
        for(i=0;i<243;i++)
